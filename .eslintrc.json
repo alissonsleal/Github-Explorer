@@ -33,6 +33,7 @@
     "react/jsx-filename-extension": [1, { "extensions": [".tsx"] }],
     "import/prefer-default-export": "off",
     "@typescript-eslint/explicit-function-return-type": "off",
+    "camelcase": ["error", { "allow": ["full_name", "avatar_url"] }],
     "@typescript-eslint/explicit-module-boundary-types": "off",
     "import/extensions": [
       "error",

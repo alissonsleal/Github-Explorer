@@ -27,13 +27,14 @@
   "rules": {
     "no-use-before-define": "off",
     "react/jsx-props-no-spreading": "off",
-    "prettier/prettier": "error",
+    "prettier/prettier": ["error", { "endOfLine": "auto" }],
+    "jsx-one-expression-per-line": "off",
     "react-hooks/rules-of-hooks": "error",
     "react-hooks/exhaustive-deps": "warn",
     "react/jsx-filename-extension": [1, { "extensions": [".tsx"] }],
     "import/prefer-default-export": "off",
     "@typescript-eslint/explicit-function-return-type": "off",
-    "camelcase": ["error", { "allow": ["full_name", "avatar_url"] }],
+    "camelcase": ["error", { "allow": ["full_name", "avatar_url", "stargazers_count", "forks_count", "open_issues_count", "html_url"] }],
     "@typescript-eslint/explicit-module-boundary-types": "off",
     "import/extensions": [
       "error",

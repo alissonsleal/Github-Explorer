@@ -8,6 +8,12 @@ export const Nav = styled.nav`
   a {
     text-decoration: none;
     color: #3d3d4d;
+    display: flex;
+    font-size: 18px;
+
+    & > * {
+      margin-right: 5px;
+    }
   }
 `;
 

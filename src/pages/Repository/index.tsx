@@ -1,6 +1,6 @@
 import React, { useState, useEffect } from 'react';
 import { useRouteMatch, Link } from 'react-router-dom';
-import { FiChevronRight } from 'react-icons/fi';
+import { FiChevronRight, FiChevronLeft } from 'react-icons/fi';
 import { Nav, Header, Main, Status, EachStatus, Item } from './styles';
 
 import api from '../../services/api';
@@ -52,7 +52,10 @@ function Repository() {
     <>
       <Nav>
         <img src={logo} alt="Github Explorer" />
-        <Link to="/">Voltar</Link>
+        <Link to="/">
+          <FiChevronLeft size={20} />
+          Back
+        </Link>
       </Nav>
 
       <Main>

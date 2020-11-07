@@ -13,6 +13,7 @@ export default createGlobalStyle`
   body {
     background: #F0F0F5 url(${githubLogo}) no-repeat 70% top;
     -webkit-font-smoothing: antialiased;
+    height: 100%;
   }
 
   body, input, button {
